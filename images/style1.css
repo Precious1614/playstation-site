@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.all {
+  width: 100vw;
+}
+.navbar {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+nav {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navcont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  margin: 20px 0;
+}
+.navside {
+  display: flex;
+  width: 45%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover {
+  /* background: linear-gradient(#fb469f, #ff6062); */
+  color: #fb469f;
+}
+
+.container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.content {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.leftside {
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+.stroke {
+  background-color: #fb469f;
+  width: 15px;
+  height: 50%;
+  margin-right: 30px;
+}
+.rightside {
+  width: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.gamepad {
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+}
+.grey {
+  margin: 20px 0;
+}
+
+button {
+  background: linear-gradient(to right, #fb5283, #ff3527);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.box {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background: linear-gradient(#ff54a2, #ff575a);
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 80%;
+  z-index: -1;
+  transform: translateX(150px);
+}
+.addbut{
+text-align: center;
+color: #fff;
+cursor: pointer;
+}
+.add{
+  width: 30px;
+}
